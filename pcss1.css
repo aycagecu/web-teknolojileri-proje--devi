@@ -1,0 +1,52 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+	
+
+.container .nav{
+ height:60px;
+ width:100%;
+ background-color: #E5DDDB;
+ position:sticky;
+ top:0;
+ z-index:1;
+ text-align:center;
+ 
+}
+
+
+.nav ul li{
+	
+	display:inline-block;
+	list-style:none;
+	margin:20px 20px 20px 20px;
+	
+}
+
+.nav ul li a{
+	text-decoration:none;
+	font-family: 'Poppins';
+	font-size:18px;
+    color:black;
+	padding :5px 5px 5px 5px;}
+	
+
+.nav a:hover{
+	color:white;
+	background-color:#81D1D8 ;
+	
+}
+
+.image { 
+   position: relative; 
+   width: 100%;
+}
+h1 { 
+   position: absolute; 
+   top: 260px; 
+   left: 290px;
+   color:white; 
+}
