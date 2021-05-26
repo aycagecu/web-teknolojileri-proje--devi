@@ -32,42 +32,45 @@
    
    
    
-        <div class="loginphp">
+        <div class="login">
 		
 		   
          <div>
    
             <CENTER>
-	          <h3>Lütfen Giriş Yapınız</h3>
+	          <p style="font-size:18pt">Lütfen Giriş Yapınız</p><br>
 	  
-	          <form action="login.php" method="POST">
+	  
+	          <form id="box">
 
-               <table>
+              <table>
 
-                  <tr>
-                    <td>Kullanıcı Adı : </td>
-                    <td><input type="text" name="kadi"></td>
-                  </tr>
+               <tr>
+                 <td></td>
+                 <td><input type="text" name="kadi" placeholder="Kullanıcı Adı"></td>
+               </tr>
 
-                  <tr>
-                    <td>Şifre : </td>
-                    <td><input type="password" name="sifre"></td>
-                  </tr>
+               <tr>
+                 <td></td>
+                 <td><input type="password" name="sifre" placeholder="Şifre"></td>
+               </tr>
+			   <tr>
+			   </tr>
 
-                  <tr>
-                    <td colspan="2"><input type="submit" name="giris" value="Giriş Yap"></td>
-                  </tr>
+               <tr >
+                 <td colspan="2"><input type="submit" name="giris" value="Giriş Yap" ></td>
+               </tr>
 
-                </table>
+             </table>
 			  
 	          </form>
 	  
 	        </CENTER>
 	 
-	       </div>
+	     </div >
 		    
 		
-		
+		 <div class="loginphp">
 		
 		
 		     <?php
@@ -113,7 +116,7 @@
 				{
 				 
 	              echo"HOŞGELDİNİZ b201210094 <br>";
-				  echo"Anasayfaya Yönlendiriliyorsunuz.Lütfen bekleyin.. <br>";
+				  echo"Anasayfaya Yönlendiriliyorsunuz.<br>Lütfen bekleyin.. <br>";
 				   header("Refresh:4; url=anasayfa.html");
 				}
 			  
@@ -127,17 +130,18 @@
 		
 		
 		
-		</div>
+		 </div>
    
    
    
 	  
 	  
-	 </div>
+	  </div>
    
      
    </body>
    
 </html>
+
 
 
