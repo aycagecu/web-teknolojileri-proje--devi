@@ -16,10 +16,10 @@
 	    
 	    <div class="nav">
            
-		    <li style="float:left"><a href="login.html">Giriş Yap</a></li>
-		   <ul style="float:right">
-		     
-		      <li><a style="pointer-events:none" href="anasayfa.html">Anasayfa</a></li>
+		    
+		   <ul>
+		     <li><a href="login.html">Giriş Yap</a></li>
+		      <li><a href="anasayfa.html">Anasayfa</a></li>
 		      <li><a href="hakkimda.html">Hakkımda</a></li>
 		      <li><a href="ozgecmisim.html">Özgeçmişim</a></li>
 		      <li><a href="ilgialanlarim.html">İlgi Alanlarım</a></li>
@@ -34,26 +34,28 @@
    
    
    
-        <div>
+        <div class="login">
    
          <CENTER>
-	       <h3>Lütfen Giriş Yapınız</h3>
+	       <p style="font-size:18pt">Lütfen Giriş Yapınız</p><br>
 	  
-	       <form action="login.php" method="POST">
+	       <form id="box"action="login.php" method="POST">
 
              <table>
 
                <tr>
-                 <td>Kullanıcı Adı : </td>
-                 <td><input type="text" name="kadi"></td>
+                 <td></td>
+                 <td><input type="text" name="kadi" placeholder="Kullanıcı Adı"></td>
                </tr>
 
                <tr>
-                 <td>Şifre : </td>
-                 <td><input type="password" name="sifre"></td>
+                 <td></td>
+                 <td><input type="password" name="sifre" placeholder="Şifre"></td>
                </tr>
+			   <tr>
+			   </tr>
 
-               <tr>
+               <tr >
                  <td colspan="2"><input type="submit" name="giris" value="Giriş Yap" ></td>
                </tr>
 
