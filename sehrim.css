@@ -25,7 +25,7 @@ height:60px;
 	font-family: 'Poppins'; 
 	font-size:18px;
     color:black;
-	padding :5px 5px 5px 5px;}
+	padding :8px 10px 8px 10px;
 }
 
 body{
@@ -36,7 +36,7 @@ body{
 {
 	width:55% !important;
 	position:relative;
-	 top:60px;
+	 top:90px !important ;
 	 left:550px;
 }
 
@@ -48,6 +48,7 @@ body{
 .menu a:hover{
 	color:white;
 	background-color:#81D1D8 ;
+	border-radius:20px !important;
 	
 }
 
@@ -57,9 +58,9 @@ body{
 	width:20%;
 	height:550px;
 	position:relative;
-	bottom:490px;
+	bottom:480px;
 	left:110px;
-	padding-top:45px;
+	padding-top:40px;
 	padding-left:15px;
 	
 }
@@ -79,6 +80,7 @@ body{
 	font-family: 'Poppins'; 
 	font-size:18px;
     color:black;
+	padding:8px 10px 8px 10px;
 	}
 
 .sec2>li>a{
@@ -106,5 +108,22 @@ body{
 .gezimg{
 	height:300px;
 	width:450px;
+
 }
 
+#gezimg{
+	position:relative;
+	left:30px;
+}
+
+
+footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#E2E7EC ;
+  color: black;
+  text-align: center;
+	
+}
